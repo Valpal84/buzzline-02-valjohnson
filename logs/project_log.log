@@ -1,0 +1,17 @@
+2025-01-23 14:22:27.709 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-23 14:22:27.712 | INFO     | __main__:main:103 - START producer.
+2025-01-23 14:22:27.712 | INFO     | utils.utils_producer:get_zookeeper_address:57 - Zookeeper address: localhost:2181
+2025-01-23 14:22:31.815 | ERROR    | utils.utils_producer:check_zookeeper_service_is_ready:82 - Error checking Zookeeper readiness: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-01-23 14:22:31.817 | ERROR    | utils.utils_producer:verify_services:114 - Zookeeper is not ready. Please check your Zookeeper setup. Exiting...
+2025-01-23 14:28:10.695 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-23 14:28:10.699 | INFO     | __main__:main:103 - START producer.
+2025-01-23 14:28:10.700 | INFO     | utils.utils_producer:get_zookeeper_address:57 - Zookeeper address: localhost:2181
+2025-01-23 14:28:14.829 | ERROR    | utils.utils_producer:check_zookeeper_service_is_ready:82 - Error checking Zookeeper readiness: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-01-23 14:28:14.829 | ERROR    | utils.utils_producer:verify_services:114 - Zookeeper is not ready. Please check your Zookeeper setup. Exiting...
+2025-01-23 14:33:16.270 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-23 14:33:16.273 | INFO     | __main__:main:103 - START producer.
+2025-01-23 14:33:16.273 | INFO     | utils.utils_producer:get_zookeeper_address:57 - Zookeeper address: localhost:2181
+2025-01-23 14:33:16.289 | INFO     | utils.utils_producer:check_zookeeper_service_is_ready:79 - Zookeeper is ready at localhost:2181.
+2025-01-23 14:33:16.290 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-23 14:33:18.545 | ERROR    | utils.utils_producer:check_kafka_service_is_ready:102 - Error checking Kafka: NodeNotReadyError
+2025-01-23 14:33:18.547 | ERROR    | utils.utils_producer:verify_services:121 - Kafka broker is not ready. Please check your Kafka setup. Exiting...
