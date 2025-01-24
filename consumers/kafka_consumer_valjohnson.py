@@ -111,7 +111,7 @@ def main() -> None:
             logger.debug(f"Received message at offset {message.offset}: {message_str}")
             process_message(message_str)
     except KeyboardInterrupt:
-        logger.warning("Consumer interrupted by user.")
+        logger.warning("User ceased consumer operation.")
     except Exception as e:
         logger.error(f"Error while consuming messages: {e}")
     finally:
