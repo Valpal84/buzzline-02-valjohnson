@@ -1,5 +1,5 @@
 """
-kafka_producer_case.py
+kafka_producer_valjohnson.py
 
 Produce some streaming buzz strings and send them to a Kafka topic.
 """
@@ -65,11 +65,11 @@ def generate_messages(producer, topic, interval_secs):
 
     """
     string_list: list = [
-        "I love Python!",
-        "Kafka is awesome.",
-        "Streaming data is fun.",
-        "This is a buzz message.",
-        "Have a great day!",
+        "Coding is a work of art!",
+        "Kafka is a cool new program to learn.",
+        "Kafka is a headache to setup!",
+        "Buzz messages should come from bees.",
+        "Have fun learning how to use Kafka and Zookeeper",
     ]
     try:
         while True:
@@ -79,7 +79,7 @@ def generate_messages(producer, topic, interval_secs):
                 logger.info(f"Sent message to topic '{topic}': {message}")
                 time.sleep(interval_secs)
     except KeyboardInterrupt:
-        logger.warning("Producer interrupted by user.")
+        logger.warning("User ceased producer operation.")
     except Exception as e:
         logger.error(f"Error in message generation: {e}")
     finally:
