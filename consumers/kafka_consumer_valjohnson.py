@@ -61,6 +61,24 @@ def process_message(message: str) -> None:
     """
     logger.info(f"Processing message: {message}")
 
+    # Warning for a specific string
+    specific_string = "Kafka is a headache to setup!"
+    if specific_string in message:
+        trigger_warning(message)
+
+    #Define a warning for specific message pattern
+    def trigger_warning(message: str) -> None:
+        """
+        Trigger a warning for a specific message pattern.
+        
+        This function logs a warning. You can extend it to send notifications or perform additional actions.
+        
+        args:
+            message(str) : The message that triggered the warning.
+        """
+        warning_message = f"Warning: You better take a tylenol because: {message}"
+        logger.warning(warning_message)
+
 
 #####################################
 # Define main function for this module
