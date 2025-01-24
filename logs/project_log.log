@@ -814,3 +814,127 @@
 2025-01-24 17:29:52.654 | WARNING  | __main__:main:96 - Consumer interrupted by user.
 2025-01-24 17:29:52.698 | INFO     | __main__:main:101 - Kafka consumer for topic 'buzzline' closed.
 2025-01-24 17:29:52.701 | INFO     | __main__:main:103 - END consumer for topic 'buzzline' and group 'default_group'.
+2025-01-24 17:29:53.092 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a cool new program to learn.
+2025-01-24 17:29:53.093 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a cool new program to learn.
+2025-01-24 17:29:54.094 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a headache to setup!
+2025-01-24 17:29:54.095 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a headache to setup!
+2025-01-24 17:29:55.096 | INFO     | __main__:generate_messages:77 - Generated buzz: Buzz messages should come from bees.
+2025-01-24 17:29:55.098 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Buzz messages should come from bees.
+2025-01-24 17:29:56.100 | INFO     | __main__:generate_messages:77 - Generated buzz: Have fun learning how to use Kafka and Zookeeper
+2025-01-24 17:29:56.102 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Have fun learning how to use Kafka and Zookeeper
+2025-01-24 17:29:57.104 | INFO     | __main__:generate_messages:77 - Generated buzz: Coding is a work of art!
+2025-01-24 17:29:57.106 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Coding is a work of art!
+2025-01-24 17:29:58.109 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a cool new program to learn.
+2025-01-24 17:29:58.110 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a cool new program to learn.
+2025-01-24 17:29:59.112 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a headache to setup!
+2025-01-24 17:29:59.114 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a headache to setup!
+2025-01-24 17:30:00.117 | INFO     | __main__:generate_messages:77 - Generated buzz: Buzz messages should come from bees.
+2025-01-24 17:30:00.120 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Buzz messages should come from bees.
+2025-01-24 17:30:01.123 | INFO     | __main__:generate_messages:77 - Generated buzz: Have fun learning how to use Kafka and Zookeeper
+2025-01-24 17:30:01.125 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Have fun learning how to use Kafka and Zookeeper
+2025-01-24 17:30:02.128 | INFO     | __main__:generate_messages:77 - Generated buzz: Coding is a work of art!
+2025-01-24 17:30:02.129 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Coding is a work of art!
+2025-01-24 17:30:03.131 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a cool new program to learn.
+2025-01-24 17:30:03.134 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a cool new program to learn.
+2025-01-24 17:30:04.137 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a headache to setup!
+2025-01-24 17:30:04.138 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a headache to setup!
+2025-01-24 17:30:05.139 | INFO     | __main__:generate_messages:77 - Generated buzz: Buzz messages should come from bees.
+2025-01-24 17:30:05.142 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Buzz messages should come from bees.
+2025-01-24 17:30:06.145 | INFO     | __main__:generate_messages:77 - Generated buzz: Have fun learning how to use Kafka and Zookeeper
+2025-01-24 17:30:06.147 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Have fun learning how to use Kafka and Zookeeper
+2025-01-24 17:30:07.149 | INFO     | __main__:generate_messages:77 - Generated buzz: Coding is a work of art!
+2025-01-24 17:30:07.152 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Coding is a work of art!
+2025-01-24 17:30:08.154 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a cool new program to learn.
+2025-01-24 17:30:08.155 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a cool new program to learn.
+2025-01-24 17:30:09.158 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a headache to setup!
+2025-01-24 17:30:09.159 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a headache to setup!
+2025-01-24 17:30:10.160 | INFO     | __main__:generate_messages:77 - Generated buzz: Buzz messages should come from bees.
+2025-01-24 17:30:10.161 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Buzz messages should come from bees.
+2025-01-24 17:30:11.163 | INFO     | __main__:generate_messages:77 - Generated buzz: Have fun learning how to use Kafka and Zookeeper
+2025-01-24 17:30:11.165 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Have fun learning how to use Kafka and Zookeeper
+2025-01-24 17:30:12.169 | INFO     | __main__:generate_messages:77 - Generated buzz: Coding is a work of art!
+2025-01-24 17:30:12.170 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Coding is a work of art!
+2025-01-24 17:30:13.173 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a cool new program to learn.
+2025-01-24 17:30:13.174 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a cool new program to learn.
+2025-01-24 17:30:14.175 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a headache to setup!
+2025-01-24 17:30:14.176 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a headache to setup!
+2025-01-24 17:30:15.179 | INFO     | __main__:generate_messages:77 - Generated buzz: Buzz messages should come from bees.
+2025-01-24 17:30:15.180 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Buzz messages should come from bees.
+2025-01-24 17:30:16.180 | INFO     | __main__:generate_messages:77 - Generated buzz: Have fun learning how to use Kafka and Zookeeper
+2025-01-24 17:30:16.181 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Have fun learning how to use Kafka and Zookeeper
+2025-01-24 17:30:17.184 | INFO     | __main__:generate_messages:77 - Generated buzz: Coding is a work of art!
+2025-01-24 17:30:17.186 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Coding is a work of art!
+2025-01-24 17:30:18.189 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a cool new program to learn.
+2025-01-24 17:30:18.190 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a cool new program to learn.
+2025-01-24 17:30:19.192 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a headache to setup!
+2025-01-24 17:30:19.193 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a headache to setup!
+2025-01-24 17:30:20.194 | INFO     | __main__:generate_messages:77 - Generated buzz: Buzz messages should come from bees.
+2025-01-24 17:30:20.195 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Buzz messages should come from bees.
+2025-01-24 17:30:21.197 | INFO     | __main__:generate_messages:77 - Generated buzz: Have fun learning how to use Kafka and Zookeeper
+2025-01-24 17:30:21.198 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Have fun learning how to use Kafka and Zookeeper
+2025-01-24 17:30:22.200 | INFO     | __main__:generate_messages:77 - Generated buzz: Coding is a work of art!
+2025-01-24 17:30:22.201 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Coding is a work of art!
+2025-01-24 17:30:23.203 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a cool new program to learn.
+2025-01-24 17:30:23.204 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a cool new program to learn.
+2025-01-24 17:30:24.206 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a headache to setup!
+2025-01-24 17:30:24.207 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a headache to setup!
+2025-01-24 17:30:25.209 | INFO     | __main__:generate_messages:77 - Generated buzz: Buzz messages should come from bees.
+2025-01-24 17:30:25.210 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Buzz messages should come from bees.
+2025-01-24 17:30:26.213 | INFO     | __main__:generate_messages:77 - Generated buzz: Have fun learning how to use Kafka and Zookeeper
+2025-01-24 17:30:26.215 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Have fun learning how to use Kafka and Zookeeper
+2025-01-24 17:30:27.218 | INFO     | __main__:generate_messages:77 - Generated buzz: Coding is a work of art!
+2025-01-24 17:30:27.220 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Coding is a work of art!
+2025-01-24 17:30:28.223 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a cool new program to learn.
+2025-01-24 17:30:28.225 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a cool new program to learn.
+2025-01-24 17:30:29.227 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a headache to setup!
+2025-01-24 17:30:29.229 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a headache to setup!
+2025-01-24 17:30:30.232 | INFO     | __main__:generate_messages:77 - Generated buzz: Buzz messages should come from bees.
+2025-01-24 17:30:30.234 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Buzz messages should come from bees.
+2025-01-24 17:30:31.237 | INFO     | __main__:generate_messages:77 - Generated buzz: Have fun learning how to use Kafka and Zookeeper
+2025-01-24 17:30:31.238 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Have fun learning how to use Kafka and Zookeeper
+2025-01-24 17:30:32.240 | INFO     | __main__:generate_messages:77 - Generated buzz: Coding is a work of art!
+2025-01-24 17:30:32.242 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Coding is a work of art!
+2025-01-24 17:30:33.245 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a cool new program to learn.
+2025-01-24 17:30:33.246 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a cool new program to learn.
+2025-01-24 17:30:34.247 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a headache to setup!
+2025-01-24 17:30:34.250 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a headache to setup!
+2025-01-24 17:30:35.253 | INFO     | __main__:generate_messages:77 - Generated buzz: Buzz messages should come from bees.
+2025-01-24 17:30:35.254 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Buzz messages should come from bees.
+2025-01-24 17:30:36.257 | INFO     | __main__:generate_messages:77 - Generated buzz: Have fun learning how to use Kafka and Zookeeper
+2025-01-24 17:30:36.259 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Have fun learning how to use Kafka and Zookeeper
+2025-01-24 17:30:37.262 | INFO     | __main__:generate_messages:77 - Generated buzz: Coding is a work of art!
+2025-01-24 17:30:37.263 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Coding is a work of art!
+2025-01-24 17:30:38.265 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a cool new program to learn.
+2025-01-24 17:30:38.266 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a cool new program to learn.
+2025-01-24 17:30:39.268 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a headache to setup!
+2025-01-24 17:30:39.269 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a headache to setup!
+2025-01-24 17:30:40.271 | INFO     | __main__:generate_messages:77 - Generated buzz: Buzz messages should come from bees.
+2025-01-24 17:30:40.272 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Buzz messages should come from bees.
+2025-01-24 17:30:41.275 | INFO     | __main__:generate_messages:77 - Generated buzz: Have fun learning how to use Kafka and Zookeeper
+2025-01-24 17:30:41.277 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Have fun learning how to use Kafka and Zookeeper
+2025-01-24 17:30:42.280 | INFO     | __main__:generate_messages:77 - Generated buzz: Coding is a work of art!
+2025-01-24 17:30:42.281 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Coding is a work of art!
+2025-01-24 17:30:43.283 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a cool new program to learn.
+2025-01-24 17:30:43.285 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a cool new program to learn.
+2025-01-24 17:30:44.288 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a headache to setup!
+2025-01-24 17:30:44.289 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a headache to setup!
+2025-01-24 17:30:45.291 | INFO     | __main__:generate_messages:77 - Generated buzz: Buzz messages should come from bees.
+2025-01-24 17:30:45.294 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Buzz messages should come from bees.
+2025-01-24 17:30:46.297 | INFO     | __main__:generate_messages:77 - Generated buzz: Have fun learning how to use Kafka and Zookeeper
+2025-01-24 17:30:46.298 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Have fun learning how to use Kafka and Zookeeper
+2025-01-24 17:30:47.299 | INFO     | __main__:generate_messages:77 - Generated buzz: Coding is a work of art!
+2025-01-24 17:30:47.302 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Coding is a work of art!
+2025-01-24 17:30:48.306 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a cool new program to learn.
+2025-01-24 17:30:48.307 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a cool new program to learn.
+2025-01-24 17:30:49.309 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a headache to setup!
+2025-01-24 17:30:49.311 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a headache to setup!
+2025-01-24 17:30:50.313 | INFO     | __main__:generate_messages:77 - Generated buzz: Buzz messages should come from bees.
+2025-01-24 17:30:50.314 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Buzz messages should come from bees.
+2025-01-24 17:30:51.316 | INFO     | __main__:generate_messages:77 - Generated buzz: Have fun learning how to use Kafka and Zookeeper
+2025-01-24 17:30:51.317 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Have fun learning how to use Kafka and Zookeeper
+2025-01-24 17:30:52.318 | INFO     | __main__:generate_messages:77 - Generated buzz: Coding is a work of art!
+2025-01-24 17:30:52.320 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Coding is a work of art!
+2025-01-24 17:30:53.323 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a cool new program to learn.
+2025-01-24 17:30:53.325 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a cool new program to learn.
+2025-01-24 17:30:54.328 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a headache to setup!
+2025-01-24 17:30:54.331 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a headache to setup!
