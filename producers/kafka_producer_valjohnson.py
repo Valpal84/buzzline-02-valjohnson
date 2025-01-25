@@ -69,7 +69,7 @@ def generate_messages(producer, topic, interval_secs):
         "Kafka is a cool new program to learn.",
         "Kafka is a headache to setup!",
         "Buzz messages should come from bees.",
-        "Have fun learning how to use Kafka and Zookeeper",
+        "Have fun learning how to use Kafka and Zookeeper.",
     ]
     try:
         while True:
