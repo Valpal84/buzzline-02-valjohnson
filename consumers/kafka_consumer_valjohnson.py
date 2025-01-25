@@ -10,6 +10,7 @@ Consume messages from a Kafka topic and process them.
 
 # Import packages from Python Standard Library
 import os
+import re
 
 # Import external packages
 from dotenv import load_dotenv
@@ -17,6 +18,7 @@ from dotenv import load_dotenv
 # Import functions from local modules
 from utils.utils_consumer import create_kafka_consumer
 from utils.utils_logger import logger
+
 
 #####################################
 # Load Environment Variables
@@ -47,25 +49,6 @@ def get_kafka_consumer_group_id() -> int:
 # Define a function to process a single message
 # #####################################
 
-    # Warning for a specific string
-    specific_string = "Kafka is a headache to setup!"
-    if specific_string in message:
-        trigger_warning(message)
-
-    #Define a warning for specific message pattern
-    def trigger_warning(message: str) -> None:
-        """
-        Trigger a warning for a specific message pattern.
-        
-        This function logs a warning. You can extend it to send notifications or perform additional actions.
-        
-        args:
-            message(str) : The message that triggered the warning.
-        """
-        warning_message = f"Warning: You better take a tylenol because: {message}"
-        logger.warning(warning_message)
-
-
 def process_message(message: str) -> None:
     """
     Process a single message.
@@ -79,6 +62,16 @@ def process_message(message: str) -> None:
     """
     logger.info(f"Processing message: {message}")
 
+# Create an alert for certain messages
+def alert_message(message):
+    """
+    Check for a certain message and sent an alert if found.
+    
+    args:
+        message(str): The message to check.
+        """
+    if re.search(r'Kafka is a headache to setup!', message):
+        logger.warning(f"Warning: You better take an ibuprofen because: {message}")
 
 
 #####################################
