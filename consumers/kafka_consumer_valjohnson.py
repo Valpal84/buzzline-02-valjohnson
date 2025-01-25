@@ -47,20 +47,6 @@ def get_kafka_consumer_group_id() -> int:
 # Define a function to process a single message
 # #####################################
 
-
-def process_message(message: str) -> None:
-    """
-    Process a single message.
-
-    For now, this function simply logs the message.
-    You can extend it to perform other tasks, like counting words
-    or storing data in a database.
-
-    Args:
-        message (str): The message to process.
-    """
-    logger.info(f"Processing message: {message}")
-
     # Warning for a specific string
     specific_string = "Kafka is a headache to setup!"
     if specific_string in message:
@@ -78,6 +64,21 @@ def process_message(message: str) -> None:
         """
         warning_message = f"Warning: You better take a tylenol because: {message}"
         logger.warning(warning_message)
+
+
+def process_message(message: str) -> None:
+    """
+    Process a single message.
+
+    For now, this function simply logs the message.
+    You can extend it to perform other tasks, like counting words
+    or storing data in a database.
+
+    Args:
+        message (str): The message to process.
+    """
+    logger.info(f"Processing message: {message}")
+
 
 
 #####################################
