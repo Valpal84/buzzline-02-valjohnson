@@ -1176,3 +1176,390 @@
 2025-01-24 20:13:34.022 | WARNING  | __main__:generate_messages:82 - User ceased producer operation.
 2025-01-24 20:13:34.024 | INFO     | __main__:generate_messages:87 - Kafka producer closed.
 2025-01-24 20:13:34.025 | INFO     | __main__:main:128 - END producer.
+2025-01-24 20:16:57.616 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-24 20:16:57.621 | INFO     | __main__:main:103 - START producer.
+2025-01-24 20:16:57.621 | INFO     | utils.utils_producer:get_zookeeper_address:57 - Zookeeper address: localhost:2181
+2025-01-24 20:16:57.633 | INFO     | utils.utils_producer:check_zookeeper_service_is_ready:79 - Zookeeper is ready at localhost:2181.
+2025-01-24 20:16:57.634 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-24 20:16:57.982 | INFO     | utils.utils_producer:check_kafka_service_is_ready:98 - Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1001, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'e6gp80UhTXK35HtKedPhTA', 'controller_id': 1001}
+2025-01-24 20:16:57.985 | INFO     | __main__:get_kafka_topic:41 - Kafka topic: buzzline
+2025-01-24 20:16:57.986 | INFO     | __main__:get_message_interval:48 - Message interval: 1 seconds
+2025-01-24 20:16:57.987 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-24 20:16:57.989 | INFO     | utils.utils_producer:create_kafka_producer:146 - Connecting to Kafka broker at localhost:9092...
+2025-01-24 20:16:58.105 | INFO     | utils.utils_producer:create_kafka_producer:151 - Kafka producer successfully created.
+2025-01-24 20:16:58.107 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-24 20:16:58.442 | INFO     | utils.utils_producer:create_kafka_topic:172 - Topic 'buzzline' already exists. Clearing it out...
+2025-01-24 20:16:58.443 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-24 20:16:58.789 | ERROR    | utils.utils_producer:clear_kafka_topic:235 - Error managing retention for topic 'buzzline': list indices must be integers or slices, not ConfigResource
+2025-01-24 20:16:58.791 | INFO     | __main__:main:119 - Kafka topic 'buzzline' is ready.
+2025-01-24 20:16:58.793 | INFO     | __main__:main:125 - Starting message production to topic 'buzzline'...
+2025-01-24 20:16:58.793 | INFO     | __main__:generate_messages:77 - Generated buzz: Coding is a work of art!
+2025-01-24 20:16:58.795 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Coding is a work of art!
+2025-01-24 20:16:59.798 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a cool new program to learn.
+2025-01-24 20:16:59.799 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a cool new program to learn.
+2025-01-24 20:17:00.801 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a headache to setup!
+2025-01-24 20:17:00.803 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a headache to setup!
+2025-01-24 20:17:01.807 | INFO     | __main__:generate_messages:77 - Generated buzz: Buzz messages should come from bees.
+2025-01-24 20:17:01.810 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Buzz messages should come from bees.
+2025-01-24 20:17:02.813 | INFO     | __main__:generate_messages:77 - Generated buzz: Have fun learning how to use Kafka and Zookeeper.
+2025-01-24 20:17:02.816 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Have fun learning how to use Kafka and Zookeeper.
+2025-01-24 20:17:03.818 | INFO     | __main__:generate_messages:77 - Generated buzz: Coding is a work of art!
+2025-01-24 20:17:03.820 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Coding is a work of art!
+2025-01-24 20:17:04.824 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a cool new program to learn.
+2025-01-24 20:17:04.826 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a cool new program to learn.
+2025-01-24 20:17:05.828 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a headache to setup!
+2025-01-24 20:17:05.829 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a headache to setup!
+2025-01-24 20:17:06.832 | INFO     | __main__:generate_messages:77 - Generated buzz: Buzz messages should come from bees.
+2025-01-24 20:17:06.834 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Buzz messages should come from bees.
+2025-01-24 20:17:07.836 | INFO     | __main__:generate_messages:77 - Generated buzz: Have fun learning how to use Kafka and Zookeeper.
+2025-01-24 20:17:07.838 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Have fun learning how to use Kafka and Zookeeper.
+2025-01-24 20:17:08.841 | INFO     | __main__:generate_messages:77 - Generated buzz: Coding is a work of art!
+2025-01-24 20:17:08.843 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Coding is a work of art!
+2025-01-24 20:17:09.846 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a cool new program to learn.
+2025-01-24 20:17:09.849 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a cool new program to learn.
+2025-01-24 20:17:10.852 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a headache to setup!
+2025-01-24 20:17:10.853 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a headache to setup!
+2025-01-24 20:17:11.856 | INFO     | __main__:generate_messages:77 - Generated buzz: Buzz messages should come from bees.
+2025-01-24 20:17:11.858 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Buzz messages should come from bees.
+2025-01-24 20:17:12.861 | INFO     | __main__:generate_messages:77 - Generated buzz: Have fun learning how to use Kafka and Zookeeper.
+2025-01-24 20:17:12.863 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Have fun learning how to use Kafka and Zookeeper.
+2025-01-24 20:17:13.867 | INFO     | __main__:generate_messages:77 - Generated buzz: Coding is a work of art!
+2025-01-24 20:17:13.870 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Coding is a work of art!
+2025-01-24 20:17:14.873 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a cool new program to learn.
+2025-01-24 20:17:14.876 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a cool new program to learn.
+2025-01-24 20:17:15.880 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a headache to setup!
+2025-01-24 20:17:15.883 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a headache to setup!
+2025-01-24 20:17:16.886 | INFO     | __main__:generate_messages:77 - Generated buzz: Buzz messages should come from bees.
+2025-01-24 20:17:16.887 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Buzz messages should come from bees.
+2025-01-24 20:17:17.891 | INFO     | __main__:generate_messages:77 - Generated buzz: Have fun learning how to use Kafka and Zookeeper.
+2025-01-24 20:17:17.893 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Have fun learning how to use Kafka and Zookeeper.
+2025-01-24 20:17:18.898 | INFO     | __main__:generate_messages:77 - Generated buzz: Coding is a work of art!
+2025-01-24 20:17:18.900 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Coding is a work of art!
+2025-01-24 20:17:19.902 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a cool new program to learn.
+2025-01-24 20:17:19.904 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a cool new program to learn.
+2025-01-24 20:17:20.804 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-24 20:17:20.807 | INFO     | __main__:main:97 - START consumer.
+2025-01-24 20:17:20.808 | INFO     | __main__:get_kafka_topic:35 - Kafka topic: buzzline
+2025-01-24 20:17:20.808 | INFO     | __main__:get_kafka_consumer_group_id:42 - Kafka consumer group id: default_group
+2025-01-24 20:17:20.809 | INFO     | __main__:main:102 - Consumer: Topic 'buzzline' and group 'default_group'...
+2025-01-24 20:17:20.810 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-24 20:17:20.811 | INFO     | utils.utils_consumer:create_kafka_consumer:44 - Creating Kafka consumer. Topic='buzzline' and group ID='default_group'.
+2025-01-24 20:17:20.907 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a headache to setup!
+2025-01-24 20:17:20.908 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a headache to setup!
+2025-01-24 20:17:20.931 | INFO     | utils.utils_consumer:create_kafka_consumer:57 - Kafka consumer created successfully.
+2025-01-24 20:17:20.932 | INFO     | __main__:main:108 - Polling messages from topic 'buzzline'...
+2025-01-24 20:17:21.276 | INFO     | __main__:process_message:80 - Processing message: Buzz messages should come from bees.
+2025-01-24 20:17:21.278 | INFO     | __main__:process_message:80 - Processing message: Have fun learning how to use Kafka and Zookeeper
+2025-01-24 20:17:21.280 | INFO     | __main__:process_message:80 - Processing message: Coding is a work of art!
+2025-01-24 20:17:21.283 | INFO     | __main__:process_message:80 - Processing message: Kafka is a cool new program to learn.
+2025-01-24 20:17:21.285 | INFO     | __main__:process_message:80 - Processing message: Kafka is a headache to setup!
+2025-01-24 20:17:21.288 | INFO     | __main__:process_message:80 - Processing message: Buzz messages should come from bees.
+2025-01-24 20:17:21.290 | INFO     | __main__:process_message:80 - Processing message: Have fun learning how to use Kafka and Zookeeper
+2025-01-24 20:17:21.293 | INFO     | __main__:process_message:80 - Processing message: Coding is a work of art!
+2025-01-24 20:17:21.295 | INFO     | __main__:process_message:80 - Processing message: Kafka is a cool new program to learn.
+2025-01-24 20:17:21.300 | INFO     | __main__:process_message:80 - Processing message: Kafka is a headache to setup!
+2025-01-24 20:17:21.303 | INFO     | __main__:process_message:80 - Processing message: Buzz messages should come from bees.
+2025-01-24 20:17:21.305 | INFO     | __main__:process_message:80 - Processing message: Have fun learning how to use Kafka and Zookeeper
+2025-01-24 20:17:21.307 | INFO     | __main__:process_message:80 - Processing message: Coding is a work of art!
+2025-01-24 20:17:21.309 | INFO     | __main__:process_message:80 - Processing message: Kafka is a cool new program to learn.
+2025-01-24 20:17:21.311 | INFO     | __main__:process_message:80 - Processing message: Kafka is a headache to setup!
+2025-01-24 20:17:21.313 | INFO     | __main__:process_message:80 - Processing message: Buzz messages should come from bees.
+2025-01-24 20:17:21.314 | INFO     | __main__:process_message:80 - Processing message: Have fun learning how to use Kafka and Zookeeper
+2025-01-24 20:17:21.316 | INFO     | __main__:process_message:80 - Processing message: Coding is a work of art!
+2025-01-24 20:17:21.317 | INFO     | __main__:process_message:80 - Processing message: Kafka is a cool new program to learn.
+2025-01-24 20:17:21.318 | INFO     | __main__:process_message:80 - Processing message: Kafka is a headache to setup!
+2025-01-24 20:17:21.319 | INFO     | __main__:process_message:80 - Processing message: Buzz messages should come from bees.
+2025-01-24 20:17:21.321 | INFO     | __main__:process_message:80 - Processing message: Have fun learning how to use Kafka and Zookeeper
+2025-01-24 20:17:21.322 | INFO     | __main__:process_message:80 - Processing message: Coding is a work of art!
+2025-01-24 20:17:21.323 | INFO     | __main__:process_message:80 - Processing message: Kafka is a cool new program to learn.
+2025-01-24 20:17:21.325 | INFO     | __main__:process_message:80 - Processing message: Kafka is a headache to setup!
+2025-01-24 20:17:21.326 | INFO     | __main__:process_message:80 - Processing message: Buzz messages should come from bees.
+2025-01-24 20:17:21.329 | INFO     | __main__:process_message:80 - Processing message: Have fun learning how to use Kafka and Zookeeper
+2025-01-24 20:17:21.331 | INFO     | __main__:process_message:80 - Processing message: Coding is a work of art!
+2025-01-24 20:17:21.332 | INFO     | __main__:process_message:80 - Processing message: Kafka is a cool new program to learn.
+2025-01-24 20:17:21.334 | INFO     | __main__:process_message:80 - Processing message: Kafka is a headache to setup!
+2025-01-24 20:17:21.335 | INFO     | __main__:process_message:80 - Processing message: Buzz messages should come from bees.
+2025-01-24 20:17:21.337 | INFO     | __main__:process_message:80 - Processing message: Have fun learning how to use Kafka and Zookeeper
+2025-01-24 20:17:21.339 | INFO     | __main__:process_message:80 - Processing message: Coding is a work of art!
+2025-01-24 20:17:21.340 | INFO     | __main__:process_message:80 - Processing message: Kafka is a cool new program to learn.
+2025-01-24 20:17:21.342 | INFO     | __main__:process_message:80 - Processing message: Kafka is a headache to setup!
+2025-01-24 20:17:21.343 | INFO     | __main__:process_message:80 - Processing message: Buzz messages should come from bees.
+2025-01-24 20:17:21.346 | INFO     | __main__:process_message:80 - Processing message: Have fun learning how to use Kafka and Zookeeper
+2025-01-24 20:17:21.348 | INFO     | __main__:process_message:80 - Processing message: Coding is a work of art!
+2025-01-24 20:17:21.349 | INFO     | __main__:process_message:80 - Processing message: Kafka is a cool new program to learn.
+2025-01-24 20:17:21.351 | INFO     | __main__:process_message:80 - Processing message: Kafka is a headache to setup!
+2025-01-24 20:17:21.352 | INFO     | __main__:process_message:80 - Processing message: Buzz messages should come from bees.
+2025-01-24 20:17:21.354 | INFO     | __main__:process_message:80 - Processing message: Have fun learning how to use Kafka and Zookeeper
+2025-01-24 20:17:21.356 | INFO     | __main__:process_message:80 - Processing message: Coding is a work of art!
+2025-01-24 20:17:21.357 | INFO     | __main__:process_message:80 - Processing message: Kafka is a cool new program to learn.
+2025-01-24 20:17:21.359 | INFO     | __main__:process_message:80 - Processing message: Kafka is a headache to setup!
+2025-01-24 20:17:21.360 | INFO     | __main__:process_message:80 - Processing message: Buzz messages should come from bees.
+2025-01-24 20:17:21.363 | INFO     | __main__:process_message:80 - Processing message: Have fun learning how to use Kafka and Zookeeper
+2025-01-24 20:17:21.365 | INFO     | __main__:process_message:80 - Processing message: Coding is a work of art!
+2025-01-24 20:17:21.367 | INFO     | __main__:process_message:80 - Processing message: Kafka is a cool new program to learn.
+2025-01-24 20:17:21.369 | INFO     | __main__:process_message:80 - Processing message: Kafka is a headache to setup!
+2025-01-24 20:17:21.372 | INFO     | __main__:process_message:80 - Processing message: Buzz messages should come from bees.
+2025-01-24 20:17:21.373 | INFO     | __main__:process_message:80 - Processing message: Have fun learning how to use Kafka and Zookeeper
+2025-01-24 20:17:21.375 | INFO     | __main__:process_message:80 - Processing message: Coding is a work of art!
+2025-01-24 20:17:21.377 | INFO     | __main__:process_message:80 - Processing message: Kafka is a cool new program to learn.
+2025-01-24 20:17:21.379 | INFO     | __main__:process_message:80 - Processing message: Kafka is a headache to setup!
+2025-01-24 20:17:21.381 | INFO     | __main__:process_message:80 - Processing message: Buzz messages should come from bees.
+2025-01-24 20:17:21.382 | INFO     | __main__:process_message:80 - Processing message: Have fun learning how to use Kafka and Zookeeper
+2025-01-24 20:17:21.383 | INFO     | __main__:process_message:80 - Processing message: Coding is a work of art!
+2025-01-24 20:17:21.384 | INFO     | __main__:process_message:80 - Processing message: Kafka is a cool new program to learn.
+2025-01-24 20:17:21.385 | INFO     | __main__:process_message:80 - Processing message: Kafka is a headache to setup!
+2025-01-24 20:17:21.387 | INFO     | __main__:process_message:80 - Processing message: I love Python!
+2025-01-24 20:17:21.389 | INFO     | __main__:process_message:80 - Processing message: Kafka is awesome.
+2025-01-24 20:17:21.390 | INFO     | __main__:process_message:80 - Processing message: Streaming data is fun.
+2025-01-24 20:17:21.392 | INFO     | __main__:process_message:80 - Processing message: This is a buzz message.
+2025-01-24 20:17:21.393 | INFO     | __main__:process_message:80 - Processing message: Have a great day!
+2025-01-24 20:17:21.395 | INFO     | __main__:process_message:80 - Processing message: I love Python!
+2025-01-24 20:17:21.397 | INFO     | __main__:process_message:80 - Processing message: Kafka is awesome.
+2025-01-24 20:17:21.398 | INFO     | __main__:process_message:80 - Processing message: Streaming data is fun.
+2025-01-24 20:17:21.399 | INFO     | __main__:process_message:80 - Processing message: This is a buzz message.
+2025-01-24 20:17:21.400 | INFO     | __main__:process_message:80 - Processing message: Have a great day!
+2025-01-24 20:17:21.401 | INFO     | __main__:process_message:80 - Processing message: I love Python!
+2025-01-24 20:17:21.402 | INFO     | __main__:process_message:80 - Processing message: Kafka is awesome.
+2025-01-24 20:17:21.403 | INFO     | __main__:process_message:80 - Processing message: Streaming data is fun.
+2025-01-24 20:17:21.404 | INFO     | __main__:process_message:80 - Processing message: This is a buzz message.
+2025-01-24 20:17:21.404 | INFO     | __main__:process_message:80 - Processing message: Have a great day!
+2025-01-24 20:17:21.405 | INFO     | __main__:process_message:80 - Processing message: I love Python!
+2025-01-24 20:17:21.406 | INFO     | __main__:process_message:80 - Processing message: Kafka is awesome.
+2025-01-24 20:17:21.407 | INFO     | __main__:process_message:80 - Processing message: Streaming data is fun.
+2025-01-24 20:17:21.408 | INFO     | __main__:process_message:80 - Processing message: This is a buzz message.
+2025-01-24 20:17:21.408 | INFO     | __main__:process_message:80 - Processing message: Have a great day!
+2025-01-24 20:17:21.409 | INFO     | __main__:process_message:80 - Processing message: I love Python!
+2025-01-24 20:17:21.410 | INFO     | __main__:process_message:80 - Processing message: Kafka is awesome.
+2025-01-24 20:17:21.412 | INFO     | __main__:process_message:80 - Processing message: Streaming data is fun.
+2025-01-24 20:17:21.415 | INFO     | __main__:process_message:80 - Processing message: This is a buzz message.
+2025-01-24 20:17:21.416 | INFO     | __main__:process_message:80 - Processing message: Have a great day!
+2025-01-24 20:17:21.417 | INFO     | __main__:process_message:80 - Processing message: Coding is a work of art!
+2025-01-24 20:17:21.417 | INFO     | __main__:process_message:80 - Processing message: Kafka is a cool new program to learn.
+2025-01-24 20:17:21.418 | INFO     | __main__:process_message:80 - Processing message: Kafka is a headache to setup!
+2025-01-24 20:17:21.419 | INFO     | __main__:process_message:80 - Processing message: Buzz messages should come from bees.
+2025-01-24 20:17:21.420 | INFO     | __main__:process_message:80 - Processing message: Have fun learning how to use Kafka and Zookeeper
+2025-01-24 20:17:21.421 | INFO     | __main__:process_message:80 - Processing message: Coding is a work of art!
+2025-01-24 20:17:21.422 | INFO     | __main__:process_message:80 - Processing message: Kafka is a cool new program to learn.
+2025-01-24 20:17:21.423 | INFO     | __main__:process_message:80 - Processing message: Kafka is a headache to setup!
+2025-01-24 20:17:21.423 | INFO     | __main__:process_message:80 - Processing message: Buzz messages should come from bees.
+2025-01-24 20:17:21.424 | INFO     | __main__:process_message:80 - Processing message: Have fun learning how to use Kafka and Zookeeper
+2025-01-24 20:17:21.425 | INFO     | __main__:process_message:80 - Processing message: Coding is a work of art!
+2025-01-24 20:17:21.426 | INFO     | __main__:process_message:80 - Processing message: Kafka is a cool new program to learn.
+2025-01-24 20:17:21.428 | INFO     | __main__:process_message:80 - Processing message: Coding is a work of art!
+2025-01-24 20:17:21.430 | INFO     | __main__:process_message:80 - Processing message: Kafka is a cool new program to learn.
+2025-01-24 20:17:21.432 | INFO     | __main__:process_message:80 - Processing message: Kafka is a headache to setup!
+2025-01-24 20:17:21.433 | INFO     | __main__:process_message:80 - Processing message: Buzz messages should come from bees.
+2025-01-24 20:17:21.434 | INFO     | __main__:process_message:80 - Processing message: Have fun learning how to use Kafka and Zookeeper.
+2025-01-24 20:17:21.435 | INFO     | __main__:process_message:80 - Processing message: Coding is a work of art!
+2025-01-24 20:17:21.436 | INFO     | __main__:process_message:80 - Processing message: Kafka is a cool new program to learn.
+2025-01-24 20:17:21.437 | INFO     | __main__:process_message:80 - Processing message: Kafka is a headache to setup!
+2025-01-24 20:17:21.437 | INFO     | __main__:process_message:80 - Processing message: Buzz messages should come from bees.
+2025-01-24 20:17:21.438 | INFO     | __main__:process_message:80 - Processing message: Have fun learning how to use Kafka and Zookeeper.
+2025-01-24 20:17:21.439 | INFO     | __main__:process_message:80 - Processing message: Coding is a work of art!
+2025-01-24 20:17:21.440 | INFO     | __main__:process_message:80 - Processing message: Kafka is a cool new program to learn.
+2025-01-24 20:17:21.441 | INFO     | __main__:process_message:80 - Processing message: Kafka is a headache to setup!
+2025-01-24 20:17:21.442 | INFO     | __main__:process_message:80 - Processing message: Buzz messages should come from bees.
+2025-01-24 20:17:21.443 | INFO     | __main__:process_message:80 - Processing message: Have fun learning how to use Kafka and Zookeeper.
+2025-01-24 20:17:21.445 | INFO     | __main__:process_message:80 - Processing message: Coding is a work of art!
+2025-01-24 20:17:21.447 | INFO     | __main__:process_message:80 - Processing message: Kafka is a cool new program to learn.
+2025-01-24 20:17:21.448 | INFO     | __main__:process_message:80 - Processing message: Kafka is a headache to setup!
+2025-01-24 20:17:21.449 | INFO     | __main__:process_message:80 - Processing message: Buzz messages should come from bees.
+2025-01-24 20:17:21.450 | INFO     | __main__:process_message:80 - Processing message: Have fun learning how to use Kafka and Zookeeper.
+2025-01-24 20:17:21.451 | INFO     | __main__:process_message:80 - Processing message: Coding is a work of art!
+2025-01-24 20:17:21.452 | INFO     | __main__:process_message:80 - Processing message: Kafka is a cool new program to learn.
+2025-01-24 20:17:21.454 | INFO     | __main__:process_message:80 - Processing message: Kafka is a headache to setup!
+2025-01-24 20:17:21.455 | INFO     | __main__:process_message:80 - Processing message: Buzz messages should come from bees.
+2025-01-24 20:17:21.457 | INFO     | __main__:process_message:80 - Processing message: Have fun learning how to use Kafka and Zookeeper.
+2025-01-24 20:17:21.458 | INFO     | __main__:process_message:80 - Processing message: Coding is a work of art!
+2025-01-24 20:17:21.459 | INFO     | __main__:process_message:80 - Processing message: Kafka is a cool new program to learn.
+2025-01-24 20:17:21.460 | INFO     | __main__:process_message:80 - Processing message: Kafka is a headache to setup!
+2025-01-24 20:17:21.462 | INFO     | __main__:process_message:80 - Processing message: Buzz messages should come from bees.
+2025-01-24 20:17:21.465 | INFO     | __main__:process_message:80 - Processing message: Have fun learning how to use Kafka and Zookeeper.
+2025-01-24 20:17:21.466 | INFO     | __main__:process_message:80 - Processing message: Coding is a work of art!
+2025-01-24 20:17:21.467 | INFO     | __main__:process_message:80 - Processing message: Kafka is a cool new program to learn.
+2025-01-24 20:17:21.468 | INFO     | __main__:process_message:80 - Processing message: Kafka is a headache to setup!
+2025-01-24 20:17:21.469 | INFO     | __main__:process_message:80 - Processing message: Buzz messages should come from bees.
+2025-01-24 20:17:21.471 | INFO     | __main__:process_message:80 - Processing message: Have fun learning how to use Kafka and Zookeeper.
+2025-01-24 20:17:21.472 | INFO     | __main__:process_message:80 - Processing message: Coding is a work of art!
+2025-01-24 20:17:21.473 | INFO     | __main__:process_message:80 - Processing message: Kafka is a cool new program to learn.
+2025-01-24 20:17:21.474 | INFO     | __main__:process_message:80 - Processing message: Kafka is a headache to setup!
+2025-01-24 20:17:21.475 | INFO     | __main__:process_message:80 - Processing message: Buzz messages should come from bees.
+2025-01-24 20:17:21.476 | INFO     | __main__:process_message:80 - Processing message: Have fun learning how to use Kafka and Zookeeper.
+2025-01-24 20:17:21.477 | INFO     | __main__:process_message:80 - Processing message: Coding is a work of art!
+2025-01-24 20:17:21.482 | INFO     | __main__:process_message:80 - Processing message: Kafka is a cool new program to learn.
+2025-01-24 20:17:21.485 | INFO     | __main__:process_message:80 - Processing message: Kafka is a headache to setup!
+2025-01-24 20:17:21.487 | INFO     | __main__:process_message:80 - Processing message: Buzz messages should come from bees.
+2025-01-24 20:17:21.489 | INFO     | __main__:process_message:80 - Processing message: Have fun learning how to use Kafka and Zookeeper.
+2025-01-24 20:17:21.490 | INFO     | __main__:process_message:80 - Processing message: Coding is a work of art!
+2025-01-24 20:17:21.491 | INFO     | __main__:process_message:80 - Processing message: Kafka is a cool new program to learn.
+2025-01-24 20:17:21.493 | INFO     | __main__:process_message:80 - Processing message: Kafka is a headache to setup!
+2025-01-24 20:17:21.497 | INFO     | __main__:process_message:80 - Processing message: Buzz messages should come from bees.
+2025-01-24 20:17:21.499 | INFO     | __main__:process_message:80 - Processing message: Have fun learning how to use Kafka and Zookeeper.
+2025-01-24 20:17:21.501 | INFO     | __main__:process_message:80 - Processing message: Coding is a work of art!
+2025-01-24 20:17:21.503 | INFO     | __main__:process_message:80 - Processing message: Kafka is a cool new program to learn.
+2025-01-24 20:17:21.504 | INFO     | __main__:process_message:80 - Processing message: Kafka is a headache to setup!
+2025-01-24 20:17:21.506 | INFO     | __main__:process_message:80 - Processing message: Buzz messages should come from bees.
+2025-01-24 20:17:21.507 | INFO     | __main__:process_message:80 - Processing message: Have fun learning how to use Kafka and Zookeeper.
+2025-01-24 20:17:21.508 | INFO     | __main__:process_message:80 - Processing message: Coding is a work of art!
+2025-01-24 20:17:21.509 | INFO     | __main__:process_message:80 - Processing message: Kafka is a cool new program to learn.
+2025-01-24 20:17:21.512 | INFO     | __main__:process_message:80 - Processing message: Kafka is a headache to setup!
+2025-01-24 20:17:21.514 | INFO     | __main__:process_message:80 - Processing message: Buzz messages should come from bees.
+2025-01-24 20:17:21.516 | INFO     | __main__:process_message:80 - Processing message: Have fun learning how to use Kafka and Zookeeper.
+2025-01-24 20:17:21.517 | INFO     | __main__:process_message:80 - Processing message: Coding is a work of art!
+2025-01-24 20:17:21.518 | INFO     | __main__:process_message:80 - Processing message: Kafka is a cool new program to learn.
+2025-01-24 20:17:21.520 | INFO     | __main__:process_message:80 - Processing message: Kafka is a headache to setup!
+2025-01-24 20:17:21.521 | INFO     | __main__:process_message:80 - Processing message: Buzz messages should come from bees.
+2025-01-24 20:17:21.522 | INFO     | __main__:process_message:80 - Processing message: Have fun learning how to use Kafka and Zookeeper.
+2025-01-24 20:17:21.523 | INFO     | __main__:process_message:80 - Processing message: Coding is a work of art!
+2025-01-24 20:17:21.524 | INFO     | __main__:process_message:80 - Processing message: Kafka is a cool new program to learn.
+2025-01-24 20:17:21.525 | INFO     | __main__:process_message:80 - Processing message: Kafka is a headache to setup!
+2025-01-24 20:17:21.911 | INFO     | __main__:generate_messages:77 - Generated buzz: Buzz messages should come from bees.
+2025-01-24 20:17:21.912 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Buzz messages should come from bees.
+2025-01-24 20:17:21.917 | INFO     | __main__:process_message:80 - Processing message: Buzz messages should come from bees.
+2025-01-24 20:17:22.914 | INFO     | __main__:generate_messages:77 - Generated buzz: Have fun learning how to use Kafka and Zookeeper.
+2025-01-24 20:17:22.916 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Have fun learning how to use Kafka and Zookeeper.
+2025-01-24 20:17:22.920 | INFO     | __main__:process_message:80 - Processing message: Have fun learning how to use Kafka and Zookeeper.
+2025-01-24 20:17:23.917 | INFO     | __main__:generate_messages:77 - Generated buzz: Coding is a work of art!
+2025-01-24 20:17:23.920 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Coding is a work of art!
+2025-01-24 20:17:23.930 | INFO     | __main__:process_message:80 - Processing message: Coding is a work of art!
+2025-01-24 20:17:24.923 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a cool new program to learn.
+2025-01-24 20:17:24.925 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a cool new program to learn.
+2025-01-24 20:17:24.932 | INFO     | __main__:process_message:80 - Processing message: Kafka is a cool new program to learn.
+2025-01-24 20:17:25.927 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a headache to setup!
+2025-01-24 20:17:25.928 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a headache to setup!
+2025-01-24 20:17:25.934 | INFO     | __main__:process_message:80 - Processing message: Kafka is a headache to setup!
+2025-01-24 20:17:26.930 | INFO     | __main__:generate_messages:77 - Generated buzz: Buzz messages should come from bees.
+2025-01-24 20:17:26.931 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Buzz messages should come from bees.
+2025-01-24 20:17:26.937 | INFO     | __main__:process_message:80 - Processing message: Buzz messages should come from bees.
+2025-01-24 20:17:27.933 | INFO     | __main__:generate_messages:77 - Generated buzz: Have fun learning how to use Kafka and Zookeeper.
+2025-01-24 20:17:27.938 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Have fun learning how to use Kafka and Zookeeper.
+2025-01-24 20:17:27.949 | INFO     | __main__:process_message:80 - Processing message: Have fun learning how to use Kafka and Zookeeper.
+2025-01-24 20:17:28.941 | INFO     | __main__:generate_messages:77 - Generated buzz: Coding is a work of art!
+2025-01-24 20:17:28.942 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Coding is a work of art!
+2025-01-24 20:17:28.949 | INFO     | __main__:process_message:80 - Processing message: Coding is a work of art!
+2025-01-24 20:17:29.944 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a cool new program to learn.
+2025-01-24 20:17:29.947 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a cool new program to learn.
+2025-01-24 20:17:29.955 | INFO     | __main__:process_message:80 - Processing message: Kafka is a cool new program to learn.
+2025-01-24 20:17:30.950 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a headache to setup!
+2025-01-24 20:17:30.955 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a headache to setup!
+2025-01-24 20:17:30.966 | INFO     | __main__:process_message:80 - Processing message: Kafka is a headache to setup!
+2025-01-24 20:17:31.958 | INFO     | __main__:generate_messages:77 - Generated buzz: Buzz messages should come from bees.
+2025-01-24 20:17:31.959 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Buzz messages should come from bees.
+2025-01-24 20:17:31.965 | INFO     | __main__:process_message:80 - Processing message: Buzz messages should come from bees.
+2025-01-24 20:17:32.962 | INFO     | __main__:generate_messages:77 - Generated buzz: Have fun learning how to use Kafka and Zookeeper.
+2025-01-24 20:17:32.964 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Have fun learning how to use Kafka and Zookeeper.
+2025-01-24 20:17:32.970 | INFO     | __main__:process_message:80 - Processing message: Have fun learning how to use Kafka and Zookeeper.
+2025-01-24 20:17:33.967 | INFO     | __main__:generate_messages:77 - Generated buzz: Coding is a work of art!
+2025-01-24 20:17:33.969 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Coding is a work of art!
+2025-01-24 20:17:33.981 | INFO     | __main__:process_message:80 - Processing message: Coding is a work of art!
+2025-01-24 20:17:34.972 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a cool new program to learn.
+2025-01-24 20:17:34.975 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a cool new program to learn.
+2025-01-24 20:17:34.986 | INFO     | __main__:process_message:80 - Processing message: Kafka is a cool new program to learn.
+2025-01-24 20:17:35.978 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a headache to setup!
+2025-01-24 20:17:35.980 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a headache to setup!
+2025-01-24 20:17:35.990 | INFO     | __main__:process_message:80 - Processing message: Kafka is a headache to setup!
+2025-01-24 20:17:36.983 | INFO     | __main__:generate_messages:77 - Generated buzz: Buzz messages should come from bees.
+2025-01-24 20:17:36.984 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Buzz messages should come from bees.
+2025-01-24 20:17:36.990 | INFO     | __main__:process_message:80 - Processing message: Buzz messages should come from bees.
+2025-01-24 20:17:37.987 | INFO     | __main__:generate_messages:77 - Generated buzz: Have fun learning how to use Kafka and Zookeeper.
+2025-01-24 20:17:37.990 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Have fun learning how to use Kafka and Zookeeper.
+2025-01-24 20:17:38.002 | INFO     | __main__:process_message:80 - Processing message: Have fun learning how to use Kafka and Zookeeper.
+2025-01-24 20:17:38.992 | INFO     | __main__:generate_messages:77 - Generated buzz: Coding is a work of art!
+2025-01-24 20:17:38.994 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Coding is a work of art!
+2025-01-24 20:17:39.005 | INFO     | __main__:process_message:80 - Processing message: Coding is a work of art!
+2025-01-24 20:17:39.997 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a cool new program to learn.
+2025-01-24 20:17:40.001 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a cool new program to learn.
+2025-01-24 20:17:40.010 | INFO     | __main__:process_message:80 - Processing message: Kafka is a cool new program to learn.
+2025-01-24 20:17:41.005 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a headache to setup!
+2025-01-24 20:17:41.009 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a headache to setup!
+2025-01-24 20:17:41.017 | INFO     | __main__:process_message:80 - Processing message: Kafka is a headache to setup!
+2025-01-24 20:17:42.011 | INFO     | __main__:generate_messages:77 - Generated buzz: Buzz messages should come from bees.
+2025-01-24 20:17:42.013 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Buzz messages should come from bees.
+2025-01-24 20:17:42.020 | INFO     | __main__:process_message:80 - Processing message: Buzz messages should come from bees.
+2025-01-24 20:17:43.015 | INFO     | __main__:generate_messages:77 - Generated buzz: Have fun learning how to use Kafka and Zookeeper.
+2025-01-24 20:17:43.020 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Have fun learning how to use Kafka and Zookeeper.
+2025-01-24 20:17:43.031 | INFO     | __main__:process_message:80 - Processing message: Have fun learning how to use Kafka and Zookeeper.
+2025-01-24 20:17:44.026 | INFO     | __main__:generate_messages:77 - Generated buzz: Coding is a work of art!
+2025-01-24 20:17:44.027 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Coding is a work of art!
+2025-01-24 20:17:44.033 | INFO     | __main__:process_message:80 - Processing message: Coding is a work of art!
+2025-01-24 20:17:45.029 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a cool new program to learn.
+2025-01-24 20:17:45.031 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a cool new program to learn.
+2025-01-24 20:17:45.042 | INFO     | __main__:process_message:80 - Processing message: Kafka is a cool new program to learn.
+2025-01-24 20:17:46.035 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a headache to setup!
+2025-01-24 20:17:46.039 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a headache to setup!
+2025-01-24 20:17:46.108 | INFO     | __main__:process_message:80 - Processing message: Kafka is a headache to setup!
+2025-01-24 20:17:47.042 | INFO     | __main__:generate_messages:77 - Generated buzz: Buzz messages should come from bees.
+2025-01-24 20:17:47.045 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Buzz messages should come from bees.
+2025-01-24 20:17:47.055 | INFO     | __main__:process_message:80 - Processing message: Buzz messages should come from bees.
+2025-01-24 20:17:48.048 | INFO     | __main__:generate_messages:77 - Generated buzz: Have fun learning how to use Kafka and Zookeeper.
+2025-01-24 20:17:48.049 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Have fun learning how to use Kafka and Zookeeper.
+2025-01-24 20:17:48.055 | INFO     | __main__:process_message:80 - Processing message: Have fun learning how to use Kafka and Zookeeper.
+2025-01-24 20:17:49.051 | INFO     | __main__:generate_messages:77 - Generated buzz: Coding is a work of art!
+2025-01-24 20:17:49.053 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Coding is a work of art!
+2025-01-24 20:17:49.064 | INFO     | __main__:process_message:80 - Processing message: Coding is a work of art!
+2025-01-24 20:17:50.057 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a cool new program to learn.
+2025-01-24 20:17:50.060 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a cool new program to learn.
+2025-01-24 20:17:50.066 | INFO     | __main__:process_message:80 - Processing message: Kafka is a cool new program to learn.
+2025-01-24 20:17:51.061 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a headache to setup!
+2025-01-24 20:17:51.062 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a headache to setup!
+2025-01-24 20:17:51.069 | INFO     | __main__:process_message:80 - Processing message: Kafka is a headache to setup!
+2025-01-24 20:17:52.065 | INFO     | __main__:generate_messages:77 - Generated buzz: Buzz messages should come from bees.
+2025-01-24 20:17:52.068 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Buzz messages should come from bees.
+2025-01-24 20:17:52.076 | INFO     | __main__:process_message:80 - Processing message: Buzz messages should come from bees.
+2025-01-24 20:17:53.071 | INFO     | __main__:generate_messages:77 - Generated buzz: Have fun learning how to use Kafka and Zookeeper.
+2025-01-24 20:17:53.072 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Have fun learning how to use Kafka and Zookeeper.
+2025-01-24 20:17:53.078 | INFO     | __main__:process_message:80 - Processing message: Have fun learning how to use Kafka and Zookeeper.
+2025-01-24 20:17:54.075 | INFO     | __main__:generate_messages:77 - Generated buzz: Coding is a work of art!
+2025-01-24 20:17:54.076 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Coding is a work of art!
+2025-01-24 20:17:54.090 | INFO     | __main__:process_message:80 - Processing message: Coding is a work of art!
+2025-01-24 20:17:55.079 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a cool new program to learn.
+2025-01-24 20:17:55.081 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a cool new program to learn.
+2025-01-24 20:17:55.087 | INFO     | __main__:process_message:80 - Processing message: Kafka is a cool new program to learn.
+2025-01-24 20:17:56.084 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a headache to setup!
+2025-01-24 20:17:56.087 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a headache to setup!
+2025-01-24 20:17:56.096 | INFO     | __main__:process_message:80 - Processing message: Kafka is a headache to setup!
+2025-01-24 20:17:57.089 | INFO     | __main__:generate_messages:77 - Generated buzz: Buzz messages should come from bees.
+2025-01-24 20:17:57.092 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Buzz messages should come from bees.
+2025-01-24 20:17:57.103 | INFO     | __main__:process_message:80 - Processing message: Buzz messages should come from bees.
+2025-01-24 20:17:58.095 | INFO     | __main__:generate_messages:77 - Generated buzz: Have fun learning how to use Kafka and Zookeeper.
+2025-01-24 20:17:58.097 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Have fun learning how to use Kafka and Zookeeper.
+2025-01-24 20:17:58.109 | INFO     | __main__:process_message:80 - Processing message: Have fun learning how to use Kafka and Zookeeper.
+2025-01-24 20:17:59.100 | INFO     | __main__:generate_messages:77 - Generated buzz: Coding is a work of art!
+2025-01-24 20:17:59.101 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Coding is a work of art!
+2025-01-24 20:17:59.107 | INFO     | __main__:process_message:80 - Processing message: Coding is a work of art!
+2025-01-24 20:18:00.103 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a cool new program to learn.
+2025-01-24 20:18:00.107 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a cool new program to learn.
+2025-01-24 20:18:00.114 | INFO     | __main__:process_message:80 - Processing message: Kafka is a cool new program to learn.
+2025-01-24 20:18:01.109 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a headache to setup!
+2025-01-24 20:18:01.113 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a headache to setup!
+2025-01-24 20:18:01.122 | INFO     | __main__:process_message:80 - Processing message: Kafka is a headache to setup!
+2025-01-24 20:18:02.116 | INFO     | __main__:generate_messages:77 - Generated buzz: Buzz messages should come from bees.
+2025-01-24 20:18:02.118 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Buzz messages should come from bees.
+2025-01-24 20:18:02.128 | INFO     | __main__:process_message:80 - Processing message: Buzz messages should come from bees.
+2025-01-24 20:18:03.122 | INFO     | __main__:generate_messages:77 - Generated buzz: Have fun learning how to use Kafka and Zookeeper.
+2025-01-24 20:18:03.125 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Have fun learning how to use Kafka and Zookeeper.
+2025-01-24 20:18:03.132 | INFO     | __main__:process_message:80 - Processing message: Have fun learning how to use Kafka and Zookeeper.
+2025-01-24 20:18:04.128 | INFO     | __main__:generate_messages:77 - Generated buzz: Coding is a work of art!
+2025-01-24 20:18:04.131 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Coding is a work of art!
+2025-01-24 20:18:04.141 | INFO     | __main__:process_message:80 - Processing message: Coding is a work of art!
+2025-01-24 20:18:05.134 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a cool new program to learn.
+2025-01-24 20:18:05.136 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a cool new program to learn.
+2025-01-24 20:18:05.141 | INFO     | __main__:process_message:80 - Processing message: Kafka is a cool new program to learn.
+2025-01-24 20:18:06.138 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a headache to setup!
+2025-01-24 20:18:06.139 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a headache to setup!
+2025-01-24 20:18:06.145 | INFO     | __main__:process_message:80 - Processing message: Kafka is a headache to setup!
+2025-01-24 20:18:07.140 | INFO     | __main__:generate_messages:77 - Generated buzz: Buzz messages should come from bees.
+2025-01-24 20:18:07.143 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Buzz messages should come from bees.
+2025-01-24 20:18:07.155 | INFO     | __main__:process_message:80 - Processing message: Buzz messages should come from bees.
+2025-01-24 20:18:08.148 | INFO     | __main__:generate_messages:77 - Generated buzz: Have fun learning how to use Kafka and Zookeeper.
+2025-01-24 20:18:08.149 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Have fun learning how to use Kafka and Zookeeper.
+2025-01-24 20:18:08.152 | WARNING  | __main__:main:115 - User ceased consumer operation.
+2025-01-24 20:18:08.159 | INFO     | __main__:main:120 - Kafka consumer for topic 'buzzline' closed.
+2025-01-24 20:18:08.160 | INFO     | __main__:main:122 - END consumer for topic 'buzzline' and group 'default_group'.
+2025-01-24 20:18:09.150 | INFO     | __main__:generate_messages:77 - Generated buzz: Coding is a work of art!
+2025-01-24 20:18:09.151 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Coding is a work of art!
+2025-01-24 20:18:10.153 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a cool new program to learn.
+2025-01-24 20:18:10.157 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a cool new program to learn.
+2025-01-24 20:18:10.739 | WARNING  | __main__:generate_messages:82 - User ceased producer operation.
+2025-01-24 20:18:10.741 | INFO     | __main__:generate_messages:87 - Kafka producer closed.
+2025-01-24 20:18:10.742 | INFO     | __main__:main:128 - END producer.
