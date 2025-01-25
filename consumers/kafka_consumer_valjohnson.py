@@ -61,6 +61,7 @@ def process_message(message: str) -> None:
         message (str): The message to process.
     """
     logger.info(f"Processing message: {message}")
+    alert_message(message)
 
 # Create an alert for certain messages
 def alert_message(message):
